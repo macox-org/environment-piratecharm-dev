@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:piratecharm/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:piratecharm/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:piratecharm/prow:hmacToken
+segmentWriteKey: vault:piratecharm:segmentWriteKey
